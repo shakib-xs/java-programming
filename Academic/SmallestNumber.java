@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class SmallestNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -18,7 +20,5 @@ public class SmallestNumber {
         } else {
             System.out.println("c is the smallest number");
         }
-
-        sc.close();
     }
 }
